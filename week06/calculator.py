@@ -14,6 +14,8 @@ class Calculator:
         return x / y
 
     def modulo(self, x, y):
+        if y == 0:
+            return "Cannot divide by zero"
         return x % y
 
     def power(self, x, y):
