@@ -22,7 +22,6 @@ class Calculator:
     def square_root(self, x):
         return x ** (1 / 2)
 
-
 def main():
     calc = Calculator()
 
