@@ -20,7 +20,10 @@ class Calculator:
         return x ^ y
 
     def square_root(self, x):
-        return x ** (1 / 2)
+        if x >= 0:
+            return x ** 0.5
+        else:
+            return "Cannot compute square root of negative number"
 
 
 def main():
