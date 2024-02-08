@@ -1,62 +1,40 @@
-# Test8_infs3203
+### Test8_infs3203
 
-Simple overview of use/purpose.
+This is a simple command-line calculator program written in Python. It allows users to perform basic arithmetic operations such as addition, subtraction, multiplication, division, modulo, power, and square root.
+
 
 ## Description
 
-An in-depth paragraph about your project and overview of use.
+### Bug Identification:
+#### Bug1: The square_root Operation in the Calculator Class Lacks a Condition for Handling Negative Numbers. 
+**Resolution**: Changing the negative operational sign to plus operation sign 
 
-## Getting Started
+#### Bug2: Enhancement to code for "square_root" operation
+**Resolution**: Adding in if loop to identify related opreation function 
 
-### Dependencies
+#### Bug3: The modulus operation in the Calculator class cannot have the divisor set to zero
+**Resolution**: Adding in if loop to make sure it is not zero
 
-* Describe any prerequisites, libraries, OS version, etc., needed before installing program.
-* ex. Windows 10
+#### Bug4: The power function in the calculator is producing an error
+**Resolution**: Changing the operation sign to two asterisk to calculate as power
 
-### Installing
+#### Bug5: The subtraction operation in the Calculator class is performing addition
+**Resolution**: Changing the operation sign to subtraction
 
-* How/where to download your program
-* Any modifications needed to be made to files/folders
+#### Bug6: The addition operation in the Calculator class is performing subtraction
+**Resolution**: Changing the operation sign to subtraction
 
-### Executing program
-
-* How to run the program
-* Step-by-step bullets
-```
-code blocks for commands
-```
-
-## Help
-
-Any advise for common problems or issues.
-```
-command to run if program contains helper info
-```
+Tested each operation individually:
+Ensured correct behavior for both positive and negative numbers. Checked edge cases such as division by zero. Validated the changes against expected results for each bug.
+Ran the entire program to ensure overall functionality.
 
 ## Authors
 
-Contributors names and contact info
+Hamdan Mahroof - Hamdan-Maharoof
+<br>Mazin Thajudeen - mazinthaj
+<br>Ekram Karim - Git-Kar33
 
-ex. Dominique Pizzie  
-ex. [@DomPizzie](https://twitter.com/dompizzie)
 
-## Version History
+### Acknowledgments
 
-* 0.2
-    * Various bug fixes and optimizations
-    * See [commit change]() or See [release history]()
-* 0.1
-    * Initial Release
-
-## License
-
-This project is licensed under the [NAME HERE] License - see the LICENSE.md file for details
-
-## Acknowledgments
-
-Inspiration, code snippets, etc.
-* [awesome-readme](https://github.com/matiassingers/awesome-readme)
-* [PurpleBooth](https://gist.github.com/PurpleBooth/109311bb0361f32d87a2)
-* [dbader](https://github.com/dbader/readme-template)
-* [zenorocha](https://gist.github.com/zenorocha/4526327)
-* [fvcproductions](https://gist.github.com/fvcproductions/1bfc2d4aecb01a834b46)
+https://github.com/vanilson/infs3203
